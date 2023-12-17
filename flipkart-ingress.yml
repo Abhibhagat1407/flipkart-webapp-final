@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: flipkart-ingress
+  namespace: flipkart
+spec:
+  rules:
+    - host: shopkart.in # Replace with your custom hostname
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service: 
+                name: flipart-clone-service
+                port:
+                  number: 3000    
+                  .
+                  .
+                  .
+                  .///////////
+
+                  '';';;';
+                  ////////////
+                  .....
+        
+
+              
