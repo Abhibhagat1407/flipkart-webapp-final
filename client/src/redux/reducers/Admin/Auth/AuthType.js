@@ -1,0 +1,5 @@
+export const ADMIN_SIGNUP = "ADMIN_SIGNUP"
+export const ADMIN_LOGIN = "ADMIN_LOGIN"
+export const GET_ADMIN = "GET_ADMIN"
+export const UPDATE_ADMIN ="UPDATE_ADMIN"
+export const GET_ALL_ADMIN ="GET_ALL_ADMIN"
