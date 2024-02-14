@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: flipkart-clone
+spec: 
+  containers:
+    - name: flipkart-clone
+      image: atultele/flipkart-clone
+      resources: 
+        limits: 
+          memory: "128Mi"
+          cpu: "500m"
+      ports: 
+        - containerPort: 3000
